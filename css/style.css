@@ -21,6 +21,7 @@ body {
 }
 
 header {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -162,9 +163,11 @@ article {
 }
 
 
-@media (max-width:750px) {
+@media (max-width:500px) {
 
-
+    header {
+        width: 100%;
+    }
     main {
         display: flex;
         flex-direction: column;
