@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Characters</title>
+    <script src="./scripts/script.js" defer></script>
+    <script src="./scripts/modal.js" defer></script>
+    <link rel="stylesheet" href="./css/chara.css">
+</head>
+
+<body>
+    <header>
+        <input type="checkbox" style="display: none;" name="" id="check">
+        <div id="titulo">
+
+            <a href="./index.html">
+                <h1 class="logo">Hausu</h1>
+            </a>
+            <a href="./index.html">
+                <h1 class="logo">ハウス</h1>
+            </a>
+        </div>
+        <ul id="menu">
+            <a class="links" href="./index.html">
+                <li>Home</li>
+            </a>
+            <a class="links" href="./characters.html">
+                <li>Characters</li>
+            </a>
+            <a class="links" href="">
+                <li>About</li>
+            </a>
+            <a class="links t" href="">
+                <li>Shop</li>
+            </a>
+
+        </ul>
+        <label for="check" class="checkbutton" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </label>
+    </header>
+    <main>
+        <h2>characters</h2>
+        <section id="cont-chara">
+            <article class="cont-img">
+
+                <img class="myImg" src="./assets/img/hausu-auntie.jpg" alt="Tia Karei">
+                <p class="name">Tia Karei </p>
+            </article>
+            <article class="cont-img">
+
+                <img class="myImg" src="./assets/img/hausu-oshare.jpg" alt="Oshare">
+                <p class="name">Oshare</p>
+            </article>
+            <article class="cont-img">
+
+                <img class="myImg" src="./assets/img/hausu-gari.jpg" alt="Gari">
+                <p class="name">Gari</p>
+            </article>
+            <article class="cont-img">
+
+                <img class="myImg" src="./assets/img/hausu-fanta.jpg" alt="Fanta">
+                <p class="name">Fanta</p>
+            </article>
+            <article class="cont-img">
+
+                <img class="myImg" src="./assets/img/hausu-kungFu.jpg" alt="Kung-fu">
+                <p class="name">Kung-fu</p>
+            </article>
+            <article class="cont-img">
+
+                <img class="myImg" src="./assets/img/hausu-mac.jpg" alt="Mac">
+                <p class="name">Mac</p>
+            </article>
+            <article class="cont-img">
+
+                <img class="myImg" src="./assets/img/hausu-melody.jpg" alt="Melody">
+                <p class="name">Melody</p>
+            </article>
+            <article class="cont-img">
+
+                <img class="myImg" src="./assets/img/hausu-sweet.jpg" alt="Sweet">
+                <p class="name">Sweet</p>
+            </article>
+        </section>
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img  alt="" class="modal-cont" id="img01">
+            <div id="caption"></div>
+        </div>
+    </main>
+</body>
+
+</html>
