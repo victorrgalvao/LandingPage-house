@@ -83,6 +83,7 @@ p {
 ul>a {
     color: white;
     transition: all 0.5s;
+    margin-right: 50px;
 }
 
 ul>a:hover {
