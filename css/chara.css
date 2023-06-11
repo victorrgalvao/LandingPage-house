@@ -307,14 +307,11 @@ aside {
 
     }
 
-    #menu>a {
+    .links{
         display: block;
         text-align: center;
-        padding: 20px;
-        transition: all .5s;
-        margin-top: 10px;
-
-    }
+        margin: 30px auto;
+      }
 
     aside {
         display: flex;
