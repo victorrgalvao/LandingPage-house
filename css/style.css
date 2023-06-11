@@ -194,7 +194,8 @@ article {
         text-align: center;
         padding: 20px;
         transition: all .5s;
-       margin: 0 auto;
+        margin-top: 10px;
+       
 
     }
 
